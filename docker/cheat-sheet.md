@@ -1,5 +1,18 @@
 # Docker Cheat Sheet
 
+* [Arquivo de Help](#arquivo-de-help)
+* [Versão](#versao)
+* [Imagens](#imagens)
+    * [Criar Imagem](#criar-imagem)
+    * [Remover Imagem](#remover-imagem)
+* [Containers](#containers)
+    * [Listar Containers](#listar-containers)
+    * [Criar Containers](#criar-containers)
+    * [Iniciar Container](#iniciar-container)
+    * [Reiniciar Container](#reiniciar-container)
+    * [Finalizar Container](#finalizar-container)
+    * [Excluir Container](#excluir-container)
+
 ## Arquivo de Help
 ```
 docker --help
@@ -10,6 +23,10 @@ docker --version
 ```
 
 # Imagens
+## Listar Imagens
+```
+docker images
+```
 ## Criar Imagem
 ### Criar imagem a partir do Dockerfile no diretório atual.
 ```sh    
