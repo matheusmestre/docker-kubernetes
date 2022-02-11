@@ -1,9 +1,13 @@
 # Docker Cheat Sheet
 
 * [Arquivo de Help](#arquivo-de-help)
-* [Versão](#versao)
+* [Versão](#versão)
 * [Imagens](#imagens)
+    * [Listar Imagens](#listar-imagens)
     * [Criar Imagem](#criar-imagem)
+        - [Criar imagem a partir do Dockerfile no diretório atual.](#criar-imagem-a-partir-do-dockerfile-no-diretório-atual)
+        - [Criar imagem com nome customizado.](#criar-imagem-com-nome-customizado)
+        - [Criar imagem com nome e tag customizados.](#criar-imagem-com-nome-e-tag-customizados)    
     * [Remover Imagem](#remover-imagem)
 * [Containers](#containers)
     * [Listar Containers](#listar-containers)
@@ -36,7 +40,7 @@ docker build .
 ```
 docker build -t <name> .
 ```
-### Criar imagem com nome/tag customizados.
+### Criar imagem com nome e tag customizados.
 ```
 docker build -t <name>:<tag> .
 ```
